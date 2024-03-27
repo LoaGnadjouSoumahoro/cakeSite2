@@ -6,11 +6,25 @@ import Article from "../../components/article/Article";
 
 const HomePage = () => {
   return (
-    <div>
-      <Header />
-      <MainSection />
-      <MainSide />
-      <Article />
+    <div className="layout">
+      <div className="content1">
+        <Header />
+      </div>
+      <div className="content2">
+        <MainSection />
+      </div>
+      <div
+        className="content3
+      "
+      >
+        <MainSide />
+      </div>
+      <div
+        className="content4
+      "
+      >
+        <Article />
+      </div>
     </div>
   );
 };
